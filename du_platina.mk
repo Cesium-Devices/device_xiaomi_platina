@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common Superior OS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Corvus OS stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
@@ -45,6 +45,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := superior_platina
+PRODUCT_NAME := du_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
