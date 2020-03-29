@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_platina.mk
+    $(LOCAL_DIR)/superior_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_platina-eng \
-    havoc_platina-userdebug \
-    havoc_platina-user
+    superior_platina-eng \
+    superior_platina-userdebug \
+    superior_platina-user
