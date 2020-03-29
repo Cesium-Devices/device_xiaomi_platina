@@ -48,7 +48,3 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := superior_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
-
-# Havoc
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=1cecreamm 
