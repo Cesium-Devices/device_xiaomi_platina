@@ -547,10 +547,6 @@ PRODUCT_PACKAGES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
 
-# Corvus Parts
-PRODUCT_PACKAGES += \
-    CorvusParts
-
 # AOSP DEVICE
 PRODUCT_NAME := du_platina
 PRODUCT_DEVICE := platina
