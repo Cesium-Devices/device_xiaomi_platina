@@ -44,6 +44,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Official
 DU_BUILD_TYPE := OFFICIAL
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
