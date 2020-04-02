@@ -42,6 +42,8 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release
 TARGET_VENDOR_PRODUCT_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Official
+DU_BUILD_TYPE := OFFICIAL
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
