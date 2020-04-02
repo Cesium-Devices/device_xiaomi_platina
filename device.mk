@@ -120,9 +120,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
-# Boot animation
-TARGET_BOOTANIMATION_SIZE := 1080p
-
 # Broadcastradio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
@@ -244,10 +241,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     ims-ext-common_system \
     ims_ext_common.xml
-
-# IMS JAR
-PRODUCT_BOOT_JARS += \
-    ims-ext-common_system
 
 # Init
 PRODUCT_PACKAGES += \
