@@ -253,6 +253,12 @@ on boot
     chown system system /sys/class/backlight/panel1-backlight/brightness
     chown system system /sys/class/backlight/panel1-backlight/max_brightness
 
+    # Access permission for smart charging
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
     # Allow access to sensors device attributes
     chown system system /sys/class/sensors/MPU6050-accel/enable
     chown system system /sys/class/sensors/MPU6050-accel/poll_delay
