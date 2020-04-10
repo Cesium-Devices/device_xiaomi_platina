@@ -42,8 +42,6 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release
 TARGET_VENDOR_PRODUCT_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-scr_resolution := 1440
-
 # Official
 DU_BUILD_TYPE := OFFICIAL
 
