@@ -51,6 +51,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := du_platina
+PRODUCT_NAME := xtended_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
