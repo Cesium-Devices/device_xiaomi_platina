@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_platina.mk
+    $(LOCAL_DIR)/xtended_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_platina-eng \
-    du_platina-userdebug \
-    du_platina-user
+    xtended_platina-eng \
+    xtended_platina-userdebug \
+    xtended_platina-user
