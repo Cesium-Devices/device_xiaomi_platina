@@ -46,8 +46,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootleggers.maintainer=1cecreamm
 
-TARGET_BOOT_ANIMATION_RES := 1080
-
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
