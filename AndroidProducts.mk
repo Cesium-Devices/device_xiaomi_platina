@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_platina.mk
+    $(LOCAL_DIR)/xtended_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_platina-eng \
-    bootleg_platina-userdebug \
-    bootleg_platina-user
+    xtended_platina-eng \
+    xtended_platina-userdebug \
+    xtended_platina-user

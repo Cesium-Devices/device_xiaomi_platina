@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common Bootleggers OS stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+# Inherit some common Corvus OS stuff.
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
@@ -42,13 +42,15 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/rele
 TARGET_VENDOR_PRODUCT_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Maintainer Prop
+# Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=1cecreamm
+    ro.xtended.maintainer=1cecreamm
+
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := bootleg_platina
+PRODUCT_NAME := xtended_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
