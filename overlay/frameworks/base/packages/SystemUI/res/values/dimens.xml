@@ -19,5 +19,11 @@
     <dimen name="rounded_corner_content_padding">14dp</dimen>
     <dimen name="status_bar_extra_padding">9dp</dimen>
 
-    <dimen name="system_icons_keyguard_padding_end">14dp</dimen>
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">21dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">21dp</dimen>
+
+    <dimen name="system_icons_keyguard_padding_end">16dp</dimen>
 </resources>
