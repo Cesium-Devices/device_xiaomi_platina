@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_platina.mk
+    $(LOCAL_DIR)/cesium_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_platina-eng \
-    xtended_platina-userdebug \
-    xtended_platina-user
+    cesium_platina-eng \
+    cesium_platina-userdebug \
+    cesium_platina-user
