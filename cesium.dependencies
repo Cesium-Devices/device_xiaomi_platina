@@ -1,0 +1,24 @@
+[
+  {
+    "repository":  "kernel_xiaomi_platina",
+    "target_path": "kernel/xiaomi/platina"
+  },
+  {
+    "repository":  "vendor_xiaomi_platina",
+    "target_path": "vendor/xiaomi/platina"
+  },
+  {
+    "repository":  "device_xiaomi_platina",
+    "target_path": "device/xiaomi/platina"
+  },
+  {
+    "repository": "1cecreamm/gcc-prebuilt",
+    "target_path": "compiler/bin",
+    "branch": "pie-r40"
+  },
+  {
+    "repository": "IceCreamGang/hardware_google_pixel",
+    "target_path": "hardware/google/pixel",
+    "branch": "ten"
+  }
+]
